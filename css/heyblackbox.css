@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   height: 100%;
   font-family: 'Gentium Book Basic', serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body {
@@ -58,13 +58,11 @@ div.header_content {
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
-	font-size: 48px;
 }
 
 h1.bigtitle {
   font-family: 'Lato', sans-serif;
 	font-weight: 900;
-	font-size: 64px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	text-align: center;
@@ -128,4 +126,14 @@ div.footer {
   background-color: #303030;
   width: 100%;
   min-height: 10em;
+}
+
+
+/* ------- MEDIA QUERIES ------- */ 
+
+
+@media(min-width:768px){
+  html, body { font-size: 20px; }
+  h1 { font-size: 48px; }
+  h1.bigtitle { font-size: 64px; }
 }
