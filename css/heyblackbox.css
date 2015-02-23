@@ -1,15 +1,131 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 20px;
+}
+
+body {
+  background: #fafafa;
+  color: #1B1E21;
+  position: relative;
+}
+
+.navbar-hbb {
+  font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	position: absolute;
+	background: rgba(255,255,255,0.1);
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar li {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  padding: 10px;
+}
 
 div.container {
-  width: 960px;
   margin: 0 auto;
+  width: 800px;
+}
+
+div.header_frame {
+  display: table;
+  background: #2C3E50 url('/images/bg2.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin-bottom: 2em;
+}
+
+div.header_content {
+  display:table-cell;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12em 2em;
 }
 
 h1 {
 	font-family: 'Lato', sans-serif;
-	font-size: 72px;
+	font-weight: 900;
+	font-size: 48px;
 }
 
-div.portfolio_item {
-  width: 720px;
-  height: 300px;
+h1.bigtitle {
+  font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 64px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-align: center;
+	color: #fff;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	text-align: center;
+	color: #303030;
+	margin-bottom: 1em;
+}
+
+p.disclaimer {
+  text-align: center;
+  
+}
+
+h3 {
+  font-size: 28px;
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
+
+div.work_item {
+  margin-bottom: 2em;
+  border: 1px solid #ccc;
+}
+
+
+
+div.work_item div.image {
+  background-color: #ccc;  
+  width: 100%;
+  height: 240px;
+}
+
+div.work_item div.image {
+  background: url('/images/fonoteka.png');
+  background-size: cover;
+}
+
+
+div.work_item h2 {
+  font-size: 20px;
+  text-align: left;
+}
+
+div.work_item button {
+  float:right;
+}
+
+
+div.footer {
+  background-color: #303030;
+  width: 100%;
+  min-height: 10em;
 }
