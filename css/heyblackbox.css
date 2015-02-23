@@ -34,7 +34,7 @@ body {
 
 div.container {
   margin: 0 auto;
-  width: 800px;
+  max-width: 800px;
 }
 
 div.header_frame {
