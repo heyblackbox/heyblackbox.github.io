@@ -16,9 +16,14 @@ body {
 	font-weight: 400;
 	color: #fff;
 	position: absolute;
-	background: rgba(255,255,255,0.1);
+	background: none;
 	margin-bottom: 0;
 	width: 100%;
+	
+}
+
+.navbar-hbb .container {
+  border-bottom: 1px solid rgba(255,255,255,0.5);
 }
 
 .navbar a {
@@ -90,6 +95,15 @@ h2 {
 	margin-bottom: 1em;
 }
 
+h3 {
+  font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	color: #303030;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
 p.disclaimer {
   text-align: center;
 }
@@ -111,15 +125,8 @@ div.work_item {
 
 
 
-div.work_item div.image {
-  background-color: #ccc;  
-  width: 100%;
-  height: 140px;
-}
-
-div.work_item div.image {
-  background: url('/images/fonoteka.png');
-  background-size: cover;
+div.work_item figure.image {
+  background-color: #009be4;  
 }
 
 
@@ -143,13 +150,35 @@ div.footer {
   background-color: #2A3138;
   width: 100%;
   min-height: 10em;
+  color: #999;
+  font-family: 'Lato';
+  font-size: 0.6em;
+  text-align: center;
+  padding: 2em;
 }
 
+/* ------- PORTFOLIO PAGE MODIFICATIONS ------- */ 
+
+.portfolio .navbar a {
+  color: #303030;
+}
+
+.portfolio h1 {
+  color: #303030;
+  text-align: left;
+  margin-top: 3em;
+  margin-bottom: 0.6em;
+}
+
+.portfolio  h2 {
+  text-align: left;
+}
+
+
+
+
+
 /* ------- MEDIA QUERIES ------- */ 
-
-
-
-
 
 /* Portrait tablets and small desktops */
 @media(min-width:768px){
@@ -157,6 +186,7 @@ div.footer {
   h1 { font-size: 64px; }
   h1.bigtitle { font-size: 64px; }
   h2 {font-size: 52px;}
+  h3 {font-size: 28px;}
   div.header_content {padding: 2em;}
   h4 {font-size: 1.4em;}
   span.nobrline { display:inline; }
