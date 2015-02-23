@@ -52,7 +52,7 @@ div.header_content {
   height: 100%;
   text-align: center;
   vertical-align: middle;
-  padding: 2em;
+  padding: 1em;
 }
 
 h1 {
@@ -67,6 +67,7 @@ h1.bigtitle {
 	letter-spacing: 0.1em;
 	text-align: center;
 	color: #fff;
+	margin-bottom: 0.6em;
 }
 
 h2 {
@@ -82,10 +83,10 @@ p.disclaimer {
   text-align: center;
 }
 
-h3 {
-  font-size: 24px;
+h4 {
   font-family: 'Gentium Book Basic', serif;
   font-weight: 400;
+  font-size: 1.1em;
   color: #fff;
   line-height: 1.4em;
   margin-bottom: 1em;
@@ -127,13 +128,22 @@ div.footer {
   min-height: 10em;
 }
 
+span.nobrline {
+  display:block;
+}
 
 /* ------- MEDIA QUERIES ------- */ 
 
+
+@media(min-width:480px){
+   
+}
 
 @media(min-width:768px){
   html, body { font-size: 20px; }
   h1 { font-size: 48px; }
   h1.bigtitle { font-size: 64px; }
-  h3 {font-size: 28px;}
+  div.header_content {padding: 2em;}
+  h4 {font-size: 1.4em;}
+  span.nobrline { display:inline; }
 }
