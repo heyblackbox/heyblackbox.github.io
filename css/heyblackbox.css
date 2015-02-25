@@ -108,6 +108,17 @@ p.disclaimer {
   text-align: center;
 }
 
+p.lead {
+  
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.small {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7em;
+}
+
 h4 {
   font-family: 'Gentium Book Basic', serif;
   font-weight: 400;
@@ -131,12 +142,24 @@ div.work_item figure.image {
 
 
 div.work_item h2 {
-  font-size: 20px;
+  font-size: 24px;
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.4em;
 }
 
 div.work_item button {
-  float:right;
+  display: block;
+  margin: 0 auto;
+  width: 100%;  
+  padding: 0.6em 0.8em;
+  border: solid 2px #303030;
+  background: none;
+  font-family: 'Lato', sans-serif;
+}
+
+div.meta {
+  padding: 1em;
 }
 
 
@@ -163,6 +186,10 @@ div.footer {
   color: #303030;
 }
 
+.portfolio .navbar-hbb .container {
+border-bottom: 1px solid #303030;
+}
+
 .portfolio h1 {
   color: #303030;
   text-align: left;
@@ -174,7 +201,12 @@ div.footer {
   text-align: left;
 }
 
-
+div.video {
+  background: #202020;
+  padding: 0;
+  margin-top: 2em;
+  max-height: 400px;
+}
 
 
 
