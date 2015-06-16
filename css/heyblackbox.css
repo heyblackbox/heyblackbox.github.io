@@ -1,13 +1,13 @@
 html, body {
   margin: 0;
   height: 100%;
-  font-family: 'Merriweather', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 
 body {
-  background: #fafafa;
+  background: #fcfcfc;
   color: #1B1E21;
   position: relative;
 }
@@ -16,12 +16,16 @@ p {
   margin-bottom: 1em;
 }
 
+li {
+  margin-bottom: 0.6em;
+}
+
 .navbar-hbb {
   font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	background: none;
-	margin-bottom: 0;
-	margin-top: 1.4em;
+	margin-bottom: 0.6em;
+	margin-top: 1.2em;
 	width: 100%;
 	
 }
@@ -35,9 +39,6 @@ p {
   padding: 0;
 }
 
-.navbar-hbb .container {
-  max-width: 1300px;
-}
 
 .navbar a {
   color: #303030;
@@ -50,13 +51,14 @@ p {
 }
 
 .icon-bar {
-  background-color: #fff;
+  background-color: #303030;
 }
 
 div.container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 960px;
 }
+
 
 div.header_frame {
   padding-top: 2em;
@@ -104,68 +106,122 @@ h3 {
 
 
 p.lead {
-  font-size: 1.2em;
-  font-style: italic;
+  font-size: 1em;
+  font-style: normal;
 }
 
 .small {
-  font-size: 0.7em;
+  font-size: 0.8em;
   line-height: 1.8em;
 }
 
+.light {
+  color:#808080;
+}
 
-
+.role {
+  border-bottom: 1px solid #dedede;
+  padding: 1em 0 2em 0;
+}
 
 div.work_item {
   margin-bottom: 2em;
-  border: 1px solid #ccc;
+  color: #808080;
+  max-width: 800px;
 }
-
 
 
 div.work_item figure.image {
-  background-color: #009be4;  
+  background-color: #eee;  
 }
-
 
 div.work_item h2 {
-  font-size: 24px;
+  font-size: 18px;
   text-align: left;
-  margin-top: 0;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.2em;
+  color: #303030;
+
 }
 
-div.work_item button {
-  display: block;
-  margin: 0 auto;
-  width: 100%;  
-  padding: 0.6em 0.8em;
-  border: solid 2px #303030;
-  background: none;
-  font-family: 'Lato', sans-serif;
+#fonoteka, #di {
+  max-width: 800px;
+}
+
+#fonoteka figure.image, .fonoteka_back {
+  background-color: #B9E9FF;
+}
+
+.fonoteka_back {
+  background: url('/images/fonoteka_bg3.jpg');
+  background-size: cover;
+  background-position: center top;
+}
+
+.fonoteka_back, .fonoteka_back h1 {
+  color: #fff !important;
+}
+
+
+
+#zvooq figure.image {
+  background-color: #9ea9ae;
 }
 
 div.meta {
-  padding: 1em;
+
 }
 
-
-
+#di figure.image {
+  background-color: #f4f4f4;
+}
 
 span.nobrline {
   display:block;
 }
 
-div.footer {
-  background-color: #2A3138;
-  width: 100%;
-  min-height: 10em;
-  color: #999;
-  font-family: 'Lato';
-  font-size: 0.6em;
-  text-align: center;
-  padding: 2em;
+
+.about-me {
+  border-top: 4px solid #303030;
+  margin-top: 4em !important; 
+  padding: 2em 0 2em;
 }
+
+
+
+/* Jumbotron */
+
+.container .jumbotron, .container-fluid .jumbotron {
+  margin-top: 2em;
+  border-radius: 0;
+  border: 1px solid #303030;
+  background: none;
+}
+
+.jumbotron h3 {
+  margin-top: 1em;
+}
+
+
+/* Buttons */
+
+.bottombuttons {
+  margin: 2em auto 0;
+  padding: 3em;
+  border-top: 0px;
+
+}
+
+.btn-default {
+  border-radius: 0;
+  border: 3px solid #303030;
+}
+
+.btn-default:hover {
+  background: #303030;
+  border: 3px solid #303030;
+  color: #fff;
+}
+
 
 /* ------- PORTFOLIO PAGE MODIFICATIONS ------- */ 
 
@@ -174,9 +230,9 @@ div.footer {
 }
 
 .portfolio h1 {
+  font-size: 2.4em;
   color: #303030;
-  text-align: left;
-  margin-top: 3em;
+  margin-top: 1em;
   margin-bottom: 0.6em;
 }
 
@@ -191,16 +247,48 @@ div.video {
   max-height: 400px;
 }
 
+/* Footer */
+
+div.footer {
+  background-color: #2A3138;
+  width: 100%;
+  min-height: 10em;
+  color: #808080;
+  font-size: 0.6em;
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.footer a, .footer a:visited {
+  text-decoration:none;
+  color: #808080;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #888;
+}
+
+span.icon-github {
+  background: url('/images/github.svg');
+  background-size: cover;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
 
 
 /* ------- MEDIA QUERIES ------- */ 
 
 /* Portrait tablets and small desktops */
 @media(min-width:768px){
-  html, body { font-size: 22px; }
-  h1 { font-size: 42px; }
-  h2 {font-size: 36px;}
-  h3 {font-size: 28px;}
+  html, body { font-size: 24px; line-height: 1.5em;}
+  h1 { font-size: 1.8em; }
+  h2 {font-size: 1.8em;}
+  h3 {font-size: 1.2em;}
   h4 {font-size: 1.4em;}
   span.nobrline { display:inline; }
   div.work_item div.image { height: 280px; }
@@ -211,6 +299,8 @@ div.video {
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   div.work_item div.image { height: 180px; }
+  .navbar-brand {margin-left: 15px;}
+  html, body { font-size: 20px; line-height: 1.4em;}
 }
 
 /* Landscape phones and smaller */
@@ -220,5 +310,5 @@ div.video {
 
 
 @media (min-width: 1200px) {
- 
+    html, body { line-height: 1.8em;}
 }
