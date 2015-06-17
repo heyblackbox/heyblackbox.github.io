@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background: #fcfcfc;
+  background: #F7F7F7;
   color: #1B1E21;
   position: relative;
 }
@@ -95,13 +95,13 @@ h3 {
 }
 
 .actions {
-  color: #808080;
+  color: #958676;
 }
 
 .actions a {
-  color: #808080;
+  color: #958676;
   text-decoration: none;
-  border-bottom: 1px solid #808080;
+  border-bottom: 1px solid #C1BBB4;
 }
 
 
@@ -120,36 +120,94 @@ p.lead {
 }
 
 .role {
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #e8e8e8;
   padding: 1em 0 2em 0;
+	background-color: #fff;
 }
 
-div.work_item {
-  margin-bottom: 2em;
-  color: #808080;
-  max-width: 800px;
+.work_item {
+  background-color: #fff;
+	direction: rtl;
+}
+
+.work_item .container {
+	display: table;
+}
+
+.work_item:nth-child(2n) {
+	background-color: #F7F7F7;
+	direction: ltr;
+}
+
+.work_item_image {
+	display: table-cell;
+	width: 600px;
+	height: 600px;
+	padding: 40px;
+}
+
+div.meta  {
+	width: 320px;
+	height: 100%;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.4em;
+	font-size: 0.8em;
+	direction: ltr;
+}
+
+div.meta p  {
+	
 }
 
 
-div.work_item figure.image {
-  background-color: #eee;  
+
+.btn-primary, .btn-primary:visited {
+	border: solid 2px #90775A;
+	border-radius: 0px;
+	background: none;
+	color: #90775A;
+	text-decoration: none;
+	transition: all 0.1s ease-in;
+}
+
+.btn-primary:hover {
+	border: solid 2px #90775A;
+	background-color: #90775A;
+	color: #fff;
+}
+
+
+
+.meta .tags {
+	text-transform: uppercase;
+	color: #ccc;
+	font-size: 0.7em;
 }
 
 div.work_item h2 {
-  font-size: 18px;
-  text-align: left;
+	font-size: 1.6em;
   margin-bottom: 0.2em;
-  color: #303030;
-
 }
 
-#fonoteka, #di {
-  max-width: 800px;
+
+
+#zvooq_mobile .work_item_image {
+	background-image: url('/images/portfolio_zvooq_mobile.png');
 }
 
-#fonoteka figure.image, .fonoteka_back {
-  background-color: #B9E9FF;
+#zvooq_web .work_item_image {
+	background-image: url('/images/portfolio_zvooq.png');
 }
+
+#di .work_item_image {
+	background-image: url('/images/portfolio_di_site.png');
+}
+
+
+/* Fonoteka page */
+
 
 .fonoteka_back {
   background: url('/images/fonoteka_bg3.jpg');
@@ -161,19 +219,6 @@ div.work_item h2 {
   color: #fff !important;
 }
 
-
-
-#zvooq figure.image {
-  background-color: #9ea9ae;
-}
-
-div.meta {
-
-}
-
-#di figure.image {
-  background-color: #f4f4f4;
-}
 
 span.nobrline {
   display:block;
@@ -250,7 +295,7 @@ div.video {
 /* Footer */
 
 div.footer {
-  background-color: #2A3138;
+  background-color: #202020;
   width: 100%;
   min-height: 10em;
   color: #808080;
@@ -286,20 +331,21 @@ span.icon-github {
 /* Portrait tablets and small desktops */
 @media(min-width:768px){
   html, body { font-size: 24px; line-height: 1.5em;}
-  h1 { font-size: 1.8em; }
+  h1 { font-size: 1.6em; }
   h2 {font-size: 1.8em;}
   h3 {font-size: 1.2em;}
   h4 {font-size: 1.4em;}
   span.nobrline { display:inline; }
-  div.work_item div.image { height: 280px; }
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0px;}
   
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  div.work_item div.image { height: 180px; }
+	h1 { font-size: 1.6em; }
+  div.work_item { height: 32	0px; }
   .navbar-brand {margin-left: 15px;}
+	span.nobrline { display:inline; }
   html, body { font-size: 20px; line-height: 1.4em;}
 }
 
