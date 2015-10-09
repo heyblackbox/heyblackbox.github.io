@@ -71,7 +71,7 @@
       <div class="container">  
         <h1>Zvooq Mobile</h1>
         <p class="lead">
-					Full-featured mobile app and a core product of Zvooq — one of Russia's leading music services. The app offers streaming playback and offline syncing, and a&nbsp;strong focus on&nbsp;curated playlists for&nbsp;various moods and&nbsp;occasions.
+					Full-featured mobile music app, a core of Zvooq music service.
 					</p>
 				<hr>
         <img class="img-responsive center-block" src="/images/zvooqmobile_cover.png" alt="Zvooq Mobile">
@@ -80,58 +80,57 @@
         
     <div class="container"> 
 			<section class="copy-section">
-				
-				<p>I was responsible for product design. It was advocating UX, drafting feature roadmaps, writing design documents, making prototypes and mockups and coordinating a team of designers. </p>
-				
-        <h3>Mobile music for casual listeners</h3>
-        
-        <p>Unlike <a href="/fonoteka/">Fonoteka</a>, Zvooq app is focused on mass-market audience.</p>
-	
-				<h3>Insights</h3>
-				
-				<p>Every person is unique. There are multiple ways to listen, and different levels of engagement with music. There are geeks, experts, enthusiasts, followers, casual listeners. We focused on a broader group of Russian-based casual listeners and researched their motivation and behavior.</p>
-				
-				<p><strong>Music as entertainment.</strong> Casual listeners do not take music too seriously. Music is serves more like a background for daily routine. Pop hits are accepted.</p>
-
-				<p><strong>Music companies influence user preferences.</strong> It’s not a secret that music business companies control not only production, but also publishing and marketing to create anticipation around the music they want to be popular. That's how it works now. To keep with the changing taste of the public, product's content strategy has to be aligned with activities of the music companies.</p>
-
-				<p><strong>Relatively low level of social network engagement.</strong> In Russia, many casual music listeners don’t have social connections outside their real life circles. And their real life circles are sometimes restricted by natural reasons like location and georgaphy. So, social music discovery for this group is a question.</p>
-		
-				<p><strong>Acceptance of advertising.</strong> High penetration of TV and music radios, both of which contain lots of advertising, makes these users more tolerant to different kinds of advertising disruption. These users are potential listeners of the ad-supported tier in a freemium model.</p>
-				
-			 
-				
+				<p>My role in this project was a crossover between design lead and product manager. I&nbsp;had to make tough articulated decisions, while seeing the product from multiple angles. I&nbsp;gathered some experience in UX strategy and product roadmaps. Together with the analytics team we worked to define the active user in a mixed audience. While I was leading the product design, a company grew from 20 to 50+ people.</p>
 				<hr>
-				<h3>Developing home screen concept</h3>
 				
-				<p>How we rejected the friend feed in favor of editorial content.</p>
+        <h3>Pivot to casual listening</h3>
+        
+        <p>This app has changed the concept and proposition of the whole Zvooq service. Previous products, <a href="/zvooqweb">Zvooq&nbsp;website</a> and <a href="/fonoteka/">Fonoteka mobile app</a>, facilitated a closer connection between users and their favorite music. The new concept was focused on background casual listening and mass-market audience.</p>
+	
+				<h3>User and marketing insights</h3>
+				
+				<p><strong>Music as entertainment.</strong> Casual listeners do not take music too serious. Music is serves more like a background for daily routine. Popular hits are important part of it.</p>
 
-				<p>Zvooq music service first went live on web, and raised popularity with creative professionals, people interconnected through social networks. Successful Facebook integration utilized the power of news ticker to instantly share what's playing. This brought in lots of socially active users in short time.</p>
+				<p><strong>Music companies influence user preferences.</strong> It’s not a secret that music business companies control not only production, but also publishing and marketing to create anticipation around the music they want to be popular.</p>
+
+				<p><strong>Low level of social network integrity.</strong> In Russia, not counting big cities, most people do not have social connections outside their real life circles. As a result, social music discovery will not work for these users.</p>
+		
+				<p><strong>Acceptance of advertising.</strong> Habits of watching TV and listening to commercial radio make these users more loyal to ad-supported streaming.</p>
+				
+			 			
+				<hr>
+
+				<p>Pirated music is still big in Russia, and it makes a significant competition to legal services. Therefore, many people are not ready to pay anything for access to music. To make the service valuable for those users, we planned a free ad-supported tier. Paying users would get offline syncing and ad-free streaming. And in all cases, the MVP should include a habit-forming discovery, convenient playback and reliable offline syncing. Further on the roadmap were audio ads, app customizations for partnerships, contagiousness and social features.</p>
+				<p>I will explain a couple of product decisions.
+
+				
+				<h3>Discovery screen</h3>
+				
+				<p>One of the first decisions I made was about the discovery feature. We rejected a friend feed in favor of editorial content.</p>
+
+				<p>Zvooq first went live on web and became popular with creative professionals, an highly interconnected social group. After successful Facebook integration the service vent viral. In a short time we acquired a good number of socially active users. It was 2011, the year when Spotify got the US audience via Facebook integration.</p>
 					
-					<p>As we watched the growth of users after Facebook integration, we envisioned ideas about using music as a social medium. We explored and prototyped shared playlists, peer-to-peer playback, online music chatrooms, and other interactions.</p>
-					
-					<p>By that time, we were pretty sure that social should be the driver for mobile app, and first thing we need to build a rich social feed. Starting from friends, artisis and labels, and later including influencers and curators.</p>
-					
+					<p>This dynamic spoiled our vision. To push social music further, we explored and prototyped shared playlists, peer-to-peer playback, and online music chatrooms. We were sure that social discovery should be the main driver the mobile app, and we started designing a social feed. First friends, artists and labels, and later including influencers and curators.</p>
+				
 				</section>
 				<img class="img-responsive" src="/images/zvooqmobile_friendfeed.png">
-				<p class="caption text-center">Friend feed as a core discovery feature?</p>
+				<p class="caption text-center">Social feed concepts</p>
 				<section class="copy-section">
 
 						
-				<p>But for Russia's casual listeners it's a different game. First, people are not so connected. In 2014, Facebook users were a&nbsp;<a  href="http://www.russia-direct.org/analysis/can-facebook-win-bigger-share-russian-social-media-pie" target="_blank">mere 18%</a> of total internet users in Russia. Second, music is not that important part of their lives.</p>
+				<p>We looked at the data on our existing users. Surprisingly, many of them were not active on any social network. Even if they had an account, they did not have friends. These users would see an empty social feed. Fail.</p>
 				
-				<p>Instead of the friend feed, we decided to go with a grid of editorially picked music objects: albums, playlists, radio stations. To quickly get maximum flexibility and start experimenting with content, we went for a hybrid technology: sections of HTML-based content with custom JS hooks for in-app actions. This technology gave us maximum flexibility to experiment with content types and presentation. The grid could easily incorporate monetization mechanics: offers, internal advertising, promos.</p>
+				<p>Unlike that, a featured content feed would work for all users on the first contact. I suggested using hybrid technology (HTML+native) to get flexibility for the future until we find the right patterns. The grid could easily fit different types of objects: albums and playlists, nested lists in child view, special offers, and partnership promotions.</p>
 				
 				</section>
 				<img class="img-responsive" src="/images/zvooqmobile_featured.png">
-				<p class="caption text-center">Hybrid feeds are future-proof for new types of content</p>
 				<section class="copy-section">
 				
-				<p>Using this visually intensive grid, we show variety and accessibility of music on the first contact with the app. Populated with up-to-date curated editorial playlists and top chart hits, this grid was a good starting point for engaging casual users.</p>
+				<p>With this design we could immediately show variety and accessibility of music. Even without personalization it was a good starting point.</p>
 				
 				<hr>
 
-				<h3>Emphasizing sync on the first session</h3>
+				<h3>Helping syncing</h3>
 
 				</section>
 				
@@ -139,14 +138,12 @@
 				
 				<section class="copy-section">
 				
-				<p>We were looking at the first user session. These were users who installed the app, launched it, swiped through few onboarding screens, created an account, activated the free trial period, and landed onto the home screen. Almost all of them would eventually arrive to the album/playlist screen.</p>
-					
-				<p>And here on this screen it was very important to communicate that this is the place where they can download. Because if they would have done the download process, they would feel that they have something in the app that belongs to them. And it's very likely they will return on the second session.</p>
-				<p>After we have added the text label to the sync button, there were no more questions about how to sync the music. The button would collapse to the compact state after a certain number of downloads, freeing up space on the toolbar.</p> 
+				<p>The data showed that if a user has synced music on the first session, he or she will probably open the app again. There would be something to return to, and we wanted to increase the number of returning users. Even if users arrived to the album screen through features or search, they sometimes did not understand how to download music.</p> 
+				<p>I have slightly changed the hierarchy of buttons on the toolbar, added the text label to the sync button. Syncing became obvious. After a few successful downloads, the button was supposed to shrink back to a collapsed state, freeing up space.</p> 
 					
 					<hr>
 					
-					<p>Additional details of this project are available by request. <a href="mailto:heyblackbox@gmail.com">Just let me know</a>.</p>
+					<p>I can provide additional details of this project by request. <a href="mailto:heyblackbox@gmail.com">Let me know</a>.</p>
 						<br/>
 						
 				
