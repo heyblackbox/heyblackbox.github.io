@@ -467,7 +467,14 @@ ul.nav { float:right !important; }
 	.work_item_image, div.meta {display:block; height: auto; padding: 20px; width: auto;}
 	div.meta {padding-top: 0; padding-bottom: 60px; font-size: 1em;}
 	
+	.face-portrait {
+		max-width: 60%;
+		padding: 3em 1em 3em 0;
+	}
 	
+	.face-meta {
+		padding: 1em !important;
+	}
 }
 
 /* Landscape phones and smaller */
@@ -480,8 +487,11 @@ ul.nav { float:right !important; }
 	.work_item_image {padding: 30px 0 0 0}
 	div.meta {padding: 0 0 40px 0; font-size: 0.9em;}
 	
-	.face-portrait, .face-meta { padding: 1em 0em; }
-	.face-portrait { padding-top: 2em;}
+	.face-portrait { max-width: 80%; padding: 2em 0 0 0; }
+	
+	.face-meta { padding: 1em !important; }
+	
+	.face-meta h2 { text-align: center; }
 	
 }
 
