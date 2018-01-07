@@ -21,6 +21,10 @@ a, a:hover, a:visited {
 	color: #90775A;
 }
 
+ol,ul {
+	margin-bottom: 20px !important;
+}
+
 li {
   margin-bottom: 0.6em;
 	
