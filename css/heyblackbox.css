@@ -29,7 +29,7 @@ li {
 
 .navbar-hbb {
   font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	background: none;
 	margin-bottom: 0.6em;
 	margin-top: 1.2em;
@@ -94,6 +94,7 @@ div.about_frame {
 
 h1,h2,h3 {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 500 !important;
 	line-height: 1.3em;
 }
 
