@@ -1,3 +1,10 @@
+html {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: cover;
+
+}
+
 html, body {
   margin: 0;
   height: 100%;
@@ -18,7 +25,7 @@ p {
 }
 
 a, a:hover, a:visited {
-	color: #90775A;
+	color: #266344;
 }
 
 
@@ -44,7 +51,8 @@ canvas, img {
 	font-weight: 500;
 	background: none;
 	margin-bottom: 0.6em;
-	margin-top: 1.2em;
+	margin-top: 0;
+	padding-top: 1.2em;
 	width: 100%;
 	
 }
@@ -62,6 +70,12 @@ canvas, img {
 .navbar a {
   color: #303030;
 }
+
+.navbar li a:hover {
+	color: #266344;
+	background: none !important;
+}
+
 
 .navbar li {
   font-size: 0.8em;
@@ -129,11 +143,11 @@ h3 {
 
 .actions {
   font-family: 'Merriweather', serif;
-  color: #90775A;
+  color: #082535;
 }
 
 .actions a {
-  color: #90775A;
+  color: #082535;
   text-decoration: none;
   border-bottom: 1px solid #C1BBB4;
 }
@@ -227,17 +241,17 @@ div.meta p  {
 
 .btn-primary, .btn-primary:visited  {
 	font-size: 0.9em;
-	border: solid 2px #90775A;
+	border: solid 2px #266344;
 	border-radius: 0px;
 	background: none;
-	color: #90775A;
+	color: #266344;
 	text-decoration: none;
 	transition: all 0.1s ease-in;
 }
 
 .btn-primary:hover, .btn-primary:active {
-	border: solid 2px #90775A;
-	background-color: #90775A;
+	border: solid 2px #266344;
+	background-color: #266344;
 	color: #fff;
 }
 
@@ -320,7 +334,7 @@ span.nobrline {
   margin-top: 2em;
   border-radius: 0;
   border: 1px solid #303030;
-  background: none;
+  background: #fff;
 }
 
 .jumbotron h3 {
@@ -377,17 +391,20 @@ div.video {
 
 div.footer {
   background-color: #202020;
+  	background-image: url('/images/bg_body.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
   width: 100%;
-  min-height: 10em;
-  color: #606060;
+  min-height: 5em;
+  color: #999;
   font-size: 0.6em;
   text-align: center;
-  padding: 3em 2em 2em 2em;
+  padding: 1em;
 }
 
 .footer a, .footer a:visited {
   text-decoration:none;
-  color: #606060;
+  color: #999;
 }
 
 .footer a:hover {
@@ -395,16 +412,6 @@ div.footer {
   color: #888;
 }
 
-span.icon-github {
-  background: url('/images/github.svg');
-  background-size: cover;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-	margin-top:-4px;
-  vertical-align: middle;
-  margin-right: 2px;
-}
 
 div.cell {
  font-family: 'Source Sans Pro', sans-serif;
