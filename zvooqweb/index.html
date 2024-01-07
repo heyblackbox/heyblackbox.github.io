@@ -79,54 +79,39 @@
     <div class="container-fluid accented_back text-center">
       <div class="container">  
         <h1>Creating a web interface for music discovery and sharing</h1>
-        <p class="lead">Fostering personal connections between music and listeners</p>
-				<hr>
         <img class="img-responsive center-block" src="/images/portfolio_zvooqweb_title.png" alt="Zvooq Web App"></br>
       </div>
     </div>
         
-    <div class="container"> 
+    <div class="container"> 	
+		<section class="copy-section">
+			<h3>Summary</h3>
+			<ul>
+				<li>I have researched user journeys related to music listening, collecting data about listening patterns from different user groups.</li>
+				<li>Based on the research results, I have conceptualised userflow feedback loops that fostered social interaction around music albums/playlists and softly nudged users to expand their music taste.</li>
+				<li>Designed core interface parts: player, playback queue, homepage, filters, collection, "radio-like" passive listening mode.</li>
+				<li>Having joined at a pre-launch phase, I have supported the service in scaling to 5 million registered users.</li>
+			</ul>
+					
 			
-				<section class="copy-section">
-					<br/>
-					
-								<p>As a product team, we had a privilege of building a first product of its kind on the Russian market. We were a motivated small group, ready to work nights and weekends.</p>
-						
-								<p>For me this project was a tipping point from client-focused kind of agency work to a human centered approach. It was not my first work with real users, but this one finished the shift. I learned to be open to user feedback and to listen to opinions, but also learned to act only if my own opinion has actually changed.</p>
-								
-								<p>The most important thing I took out of this work: a great user experience is connected to the climate and spirit within the product team. A product that people love is a love child itself. A spirit of empathy, honesty and understanding should influence the whole cycle of product development, and sustaining this spirit is a part of designer's job.</p>
+			<h3>Situation</h3>
+			
+			<p>In the past two decades, P2P services such as Napster, Soulseek and Bitorrent made music accessible more than ever since the birth of a record industry. At the same time, ubiquity of music dissolved and weakened its meaning and value. Carefully designed vilyl records and CDs got replaced by folders of poorly tagged mp3 files. Music was available, but some important part of music culture wasn't there anymore.</p>
+			
+			<h3>Task</h3>
+			<p>Solving this problem was the goal of Zvooq: to recreate and facilitate a culture of a personal relationship with music.</p>
 
-					<hr>
-
-					<p>In the past two decades, P2P services such as Napster, Soulseek and Bitorrent made music accessible more than ever since the birth of a record industry. At the same time, ubiquity of music dissolved and weakened its meaning and value. Carefully designed vilyl records and CDs got replaced by folders of poorly tagged mp3 files. Music was available, but some important part of music culture wasn't there anymore.</p>
-					<p>Solving this problem was the goal of Zvooq: <strong>to recreate and facilitate a culture of a personal relationship with music.</strong></p>
-					
-				<p>To understand how we tried to achieve it, let's look at the pattern of music interaction.
-
-				</section>
+			<h3>Solution</h3>
 				<img class="img-responsive" src="/images/portfolio_zvooqweb_sequence.png">
-				<section class="copy-section">
-					
-					<p>We articulated four basic types of interaction between a user and a music object: discovery, listening, bookmarking and sharing. Each action is supported by personal emotional triggers. As the album travels from being discovered into the user's collection, and then into friends' collections through sharing, it is getting more value. A service can keep this value and pass it on.
+					<br/>
+					<p>We articulated four basic types of interaction between a user and a music object: discovery, listening, bookmarking and sharing. As the album travels from being discovered into the user's collection, and then into friends' collections through sharing, it is getting more valueable. A service was designed to keep this value and pass it on further.
 						
-
 					<h3>Discovery</h3>
-
-					<p>Designing discovery tools at Zvooq, we were trying to put user in discovery flow state similar to the one possible in a record store. A person in&nbsp;the record store is literally surrounded by music. It is possible to navigate between marked shelves, quickly flip through records. Pick a record to "zoom in", look at cover art, read the details, feel the paper of the envelope. Instantly listen on a nearby player. 
-						
-					<p>After it was launched on web, Zvooq became popular among music enthusiasts in Russia. It was fascinating to see how they used the website to discover new music.</p>
-					<p>The simplest way was just picking random albums from the front page. It was a curated grid of music objects parsed from independent music blogs over the internet and matched with a Zvooq catalog. The grid did not give much instant context like a feed could do, but there was a serendipity of finding a cool random album. It was a surprisingly popular way of discovery.</p>
-				<p>Those who wanted to dig deeper, discovered through filters on the same front page.</p>	
-				
+					<p>Designing discovery UI, we were trying to put user in a "flow state" similar to the one possible browsing through records in a physical store: being surrounded by music. It is possible to navigate between marked shelves, quickly flip through records. Pick a record to "zoom in", look at cover art, read the details, feel the paper of the envelope. Instantly listen. 
 				</section>
 				<img class="img-responsive" src="/images/portfolio_zvooqweb_filters2.png">
 				<section class="copy-section">
-			
-					<p>Using selectors for genres and subgenres, date range, and keyword, it was possible to quickly navigate to a certain king of music. The change was instant, ant then a click on a cover zoomed in the object. It was possible to see album details without leaving the pre-tuned context. Users picked interesting albums into a play queue for later listening, or put to the collection, if considered valuable.</p>
-						
-					<p>Friend, artist and label subscriptions were used for direct and indirect music discovery. Beyond friend and subscriptions feeds, users started discovering music through personal collections of people subscribed to the same artists.</p>	
-									
-					<h3>Collecting and sharing</h3>
+				<h3>Collecting and sharing</h3>
 						
 					<p>The actions of adding to library and "liking/sharing" were merged together. There was no explicit action for sharing the album to all friends without adding it to a personal collection. This way we softly pushed users to collect and share only valuable music, keeping the noise away.
 					
@@ -134,14 +119,8 @@
 					<img class="img-responsive" src="/images/portfolio_zvooqweb_collection.png">
 					<section class="copy-section">
 					
-					<p>User's collection was designed to be a personal hall of fame. It was a place to express music taste, be discovered and impress others. This design decision contributed to a more conscious user behaviour.</p>
-					
-					<p>In Zvooq, any album could be instantly sent directly into a friend's collection. It was like you put your album on your friend's shelf. Subsequently, a friend could either accept or reject the recommendation. Sending an album directly is requires commitment, and not everyone could do it. It was one of the power user features, which we were going to develop into threads of music exchange.</p>	
+					<p>User's collection was designed to be a personal hall of fame, showcasing a person's taste. At the same time, any album could be instantly sent to a friend's collection, where a recipient could either accept or reject the recommendation.</p>	
 						
-				<h3>Retrospection</h3>						
-							
-				<p>After it was launced, Zvooq became popular among music enthusiasts in Russia. Being a fist legal licensed product of its kind, the service received some positive reviews in media. The service had over 5 million registered users.</p>
-				
 			</section>
 			
 			<!--

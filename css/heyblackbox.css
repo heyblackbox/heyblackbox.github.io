@@ -241,8 +241,8 @@ div.meta p  {
 
 .btn-primary, .btn-primary:visited  {
 	font-size: 0.9em;
-	border: solid 2px #266344;
-	border-radius: 0px;
+	border: solid 1px #266344;
+	border-radius: 30px;
 	background: none;
 	color: #266344;
 	text-decoration: none;
@@ -250,7 +250,7 @@ div.meta p  {
 }
 
 .btn-primary:hover, .btn-primary:active {
-	border: solid 2px #266344;
+	border: solid 1px #266344;
 	background-color: #266344;
 	color: #fff;
 }
