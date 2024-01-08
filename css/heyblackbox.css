@@ -241,8 +241,19 @@ div.meta  {
 	direction: ltr;
 }
 
-div.meta p  {
-	
+div.front_footer {
+	direction: ltr;
+	margin: 3em;
+	padding: 2em 4em 1em 4em;
+	border-radius: 10px;
+	display: inline-block;
+	box-shadow: inset 0px 0px 20px 0px #fff;
+
+}
+
+div.front_footer a {
+	text-decoration: underline;
+
 }
 
 .btn-primary, .btn-primary:visited  {
