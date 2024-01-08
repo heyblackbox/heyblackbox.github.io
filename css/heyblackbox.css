@@ -208,6 +208,7 @@ margin: 3em auto;
 }
 
 
+
 .work_item {
   background-color: #f2f2f2;
 	direction: rtl;
@@ -220,6 +221,21 @@ margin: 3em auto;
 .work_item:nth-child(2n) {
 	background-color: #fff;
 	direction: ltr;
+}
+
+.other_projects {
+	text-align: center;
+	background-color: #f2f2f2 !important;
+	background-image: url('/images/bg_body.svg');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 1.5em 2em 2em 2em;
+	margin-top: 2em;
+}
+
+.other_projects h2 {
+	text-align: center !important;
+	color: #f2f2f2;
 }
 
 .work_item_image {
@@ -248,7 +264,6 @@ div.front_footer {
 	border-radius: 10px;
 	display: inline-block;
 	box-shadow: inset 0px 0px 20px 0px #fff;
-
 }
 
 div.front_footer a {
@@ -487,7 +502,7 @@ ul.nav { float:right !important; }
 /* Portrait tablets and small desktops */
 @media(min-width:768px){
   html, body { font-size: 22px; line-height: 1.6em;}
-  h1 { font-size: 1.6em; }
+  h1 { font-size: 2em; }
   h2 {font-size: 1.8em;}
   h3 {font-size: 1.2em;}
   h4 {font-size: 1.4em;}
@@ -498,7 +513,7 @@ ul.nav { float:right !important; }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-	h1 { font-size: 1.6em; }
+	h1 { font-size: 2em; }
   div.work_item { height: 32	0px; direction: ltr;}
   .navbar-brand {margin-left: 15px;}
 	span.nobrline { display:inline; }
@@ -522,7 +537,7 @@ ul.nav { float:right !important; }
 	.navbar li { padding: 10px 0px; letter-spacing: 0; }
 	.navbar li a { padding: 10px 5px; }
 	html, body { font-size: 18px; line-height: 1.4em;}
-	h1 {font-size: 1.4em}
+	h1 {font-size: 1.8em}
 	.work_item_image {padding: 30px 0 0 0}
 	div.meta {padding: 0 0 40px 0; font-size: 0.9em;}
 	
@@ -538,5 +553,5 @@ ul.nav { float:right !important; }
 @media (min-width: 1200px) {
 		
     html, body { line-height: 1.6em;}
-		h1 { font-size: 1.8em; }
+		h1 { font-size: 2em; }
 }
