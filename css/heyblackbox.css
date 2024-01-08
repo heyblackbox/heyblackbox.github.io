@@ -28,6 +28,14 @@ a, a:hover, a:visited {
 	color: #266344;
 }
 
+blockquote {
+	font-size: 22px;
+	line-height: 1.5em;
+	font-style: italic;
+	border-left-color: #266344;
+	margin: 2em 2em 2em 0;
+}
+
 
 li {
   margin-bottom: 0.6em;
@@ -237,20 +245,19 @@ div.meta p  {
 	
 }
 
-
-
 .btn-primary, .btn-primary:visited  {
 	font-size: 0.9em;
-	border: solid 1px #266344;
-	border-radius: 30px;
+	padding: 0.75em 1.5em;
+	border: solid 2px #266344;
+	border-radius: 40px;
 	background: none;
 	color: #266344;
 	text-decoration: none;
-	transition: all 0.1s ease-in;
+	transition: color 0.3s, transform 0.2s, background-color 0.2s;
 }
 
 .btn-primary:hover, .btn-primary:active {
-	border: solid 1px #266344;
+	border: solid 2px #266344;
 	background-color: #266344;
 	color: #fff;
 }
