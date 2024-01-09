@@ -331,6 +331,32 @@ strong {
 }
 
 
+
+.chip {
+	display: inline-block;
+	background-color: #000;
+	padding: 0.4em 1.3em;
+	border-radius: 10px;
+	margin: 0.3em 0.2em;
+	color:#eee;
+	opacity: 0.6;
+}
+
+.chip:nth-child(3n+1) {
+	background-color: #266344;
+}
+.chip:nth-child(3n+2) {
+	background-color: #67414C;
+}
+.chip:nth-child(3n+3) {
+	background-color: #823F2F;
+}
+
+
+
+
+
+
 /* Portfolio page */
 
 
