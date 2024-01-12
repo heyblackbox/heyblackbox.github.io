@@ -263,7 +263,7 @@ div.front_footer {
 	padding: 2em 4em 1em 4em;
 	border-radius: 10px;
 	display: inline-block;
-	box-shadow: inset 0px 0px 20px 0px #fff;
+
 }
 
 div.front_footer a {
@@ -334,22 +334,22 @@ strong {
 
 .chip {
 	display: inline-block;
-	background-color: #000;
+	background-color: #efefef;
 	padding: 0.4em 1.3em;
-	border-radius: 10px;
+	border-radius: 5px;
 	margin: 0.3em 0.2em;
 	color:#eee;
-	opacity: 0.6;
+	opacity: 1;
 }
 
 .chip:nth-child(3n+1) {
-	background-color: #266344;
+	color: #266344;
 }
 .chip:nth-child(3n+2) {
-	background-color: #67414C;
+	color: #67414C;
 }
 .chip:nth-child(3n+3) {
-	background-color: #823F2F;
+	color: #823F2F;
 }
 
 
@@ -454,7 +454,7 @@ div.footer {
 	background-repeat: no-repeat;
 	background-size: cover;
   width: 100%;
-  min-height: 5em;
+  min-height: 2em;
   color: #999;
   font-size: 0.6em;
   text-align: center;
