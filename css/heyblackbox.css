@@ -26,6 +26,7 @@ p {
 
 a, a:hover, a:visited {
 	color: #266344;
+	text-decoration: underline;
 }
 
 blockquote {
@@ -42,8 +43,10 @@ li {
 	
 }
 
-.navbar-header {
 
+
+.navbar-header {
+	padding: 0em 1em;
 }
 
 canvas, img {
@@ -58,9 +61,9 @@ canvas, img {
   font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	background: none;
-	margin-bottom: 0.6em;
+	margin-bottom: 0em;
 	margin-top: 0;
-	padding-top: 1.2em;
+	padding-top: 0.6em;
 	width: 100%;
 	
 }
@@ -77,6 +80,7 @@ canvas, img {
 
 .navbar a {
   color: #303030;
+  text-decoration: none;
 }
 
 .navbar li a:hover {
@@ -334,23 +338,15 @@ strong {
 
 .chip {
 	display: inline-block;
-	background-color: #efefef;
-	padding: 0.4em 1.3em;
-	border-radius: 5px;
-	margin: 0.3em 0.2em;
-	color:#eee;
+	padding: 0.2em 1em;
+	border-radius: 30px;
+	margin: 0.4em 0.2em;
+	color:#888;
 	opacity: 1;
+	background-color: #f2f2f2;
 }
 
-.chip:nth-child(3n+1) {
-	color: #266344;
-}
-.chip:nth-child(3n+2) {
-	color: #67414C;
-}
-.chip:nth-child(3n+3) {
-	color: #823F2F;
-}
+
 
 
 
