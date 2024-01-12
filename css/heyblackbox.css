@@ -509,6 +509,84 @@ div.cell {
 }
 
 
+/* ------- FADE IN ANIMATIONS ------- */ 
+
+/*=== Trigger  ===*/
+.animate {
+	-webkit-animation-duration: 0.8s;
+	animation-duration: 0,8s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+  }
+
+/*=== Optional Delays, change values here  ===*/
+.one {
+	-webkit-animation-delay: 0.2s;
+	-moz-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+	}
+
+.two {
+	-webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+	}
+
+.three {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+	}
+
+.four {
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+	}
+
+.five {
+	-webkit-animation-delay: 1.8s;
+	-moz-animation-delay: 1.8s;
+	animation-delay: 1.8s;
+	}
+
+/*=== Animations start here  ===*/
+
+/*==== FADE IN UP ===*/
+@-webkit-keyframes fadeInUp {
+	from {
+	  opacity: 0;
+	  -webkit-transform: translate3d(0, 20px, 0);
+	  transform: translate3d(0, 20px, 0);
+	}
+  
+	to {
+	  opacity: 1;
+	  -webkit-transform: none;
+	  transform: none;
+	}
+  }
+  @keyframes fadeInUp {
+	from {
+	  opacity: 0;
+	  -webkit-transform: translate3d(0, 20px, 0);
+	  transform: translate3d(0, 20px, 0);
+	}
+  
+	to {
+	  opacity: 1;
+	  -webkit-transform: none;
+	  transform: none;
+	}
+  }
+  
+  .fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+  }
+  
+
+
 
 /* ------- COLLAPSE OVERRIDE ------- */ 
 
