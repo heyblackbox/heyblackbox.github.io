@@ -57,6 +57,10 @@ canvas, img {
     -ms-interpolation-mode: nearest-neighbor;
 }
 
+img.rounded {
+	border-radius: 0.5em;
+}
+
 .navbar-hbb {
   font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
@@ -166,10 +170,16 @@ h3 {
 
 
 p.lead {
-	  font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif;
   font-size: 1em;
   font-style: normal;
 	line-height: inherit;
+}
+
+.caption {
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-size: 0.8em !important;
+	line-height: 1.4em;
 }
 
 .small {
