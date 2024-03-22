@@ -487,16 +487,19 @@ div.footer {
   padding: 1em;
 }
 
+div.footerbox {
+	padding: 1.5em 8em 0.5em;
+}
+
+
 .footer a, .footer a:visited {
   text-decoration:none;
   color: #999;
 }
 
-.footer a:hover {
-  text-decoration: none;
-  color: #888;
-}
-
+.footerbox a {
+	text-decoration: none !important;
+  }
 
 div.cell {
  font-family: 'Source Sans Pro', sans-serif;
